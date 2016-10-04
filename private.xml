@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<root>
+    <list>
+        <item>
+            <name>Private</name>
+            <list>
+                <item>
+                    <name>英数/かな+「hjkl」で「←↓↑→」</name>
+                    <identifier>private.remap.eisuu_kana.move</identifier>
+                    <autogen>__KeyOverlaidModifier__ KeyCode::JIS_EISUU, KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen>
+                    <autogen>__KeyOverlaidModifier__ KeyCode::JIS_KANA, KeyCode::VK_MODIFIER_EXTRA2, KeyCode::JIS_KANA</autogen>
+                    <autogen>__KeyToKey__KeyCode::H,ModifierFlag::EXTRA1,KeyCode::CURSOR_LEFT</autogen>
+                    <autogen>__KeyToKey__KeyCode::J,ModifierFlag::EXTRA1,KeyCode::CURSOR_DOWN</autogen>
+                    <autogen>__KeyToKey__KeyCode::K,ModifierFlag::EXTRA1,KeyCode::CURSOR_UP</autogen>
+                    <autogen>__KeyToKey__KeyCode::L,ModifierFlag::EXTRA1,KeyCode::CURSOR_RIGHT</autogen>
+                    <autogen>__KeyToKey__KeyCode::H,ModifierFlag::EXTRA2,KeyCode::CURSOR_LEFT</autogen>
+                    <autogen>__KeyToKey__KeyCode::J,ModifierFlag::EXTRA2,KeyCode::CURSOR_DOWN</autogen>
+                    <autogen>__KeyToKey__KeyCode::K,ModifierFlag::EXTRA2,KeyCode::CURSOR_UP</autogen>
+                    <autogen>__KeyToKey__KeyCode::L,ModifierFlag::EXTRA2,KeyCode::CURSOR_RIGHT</autogen>
+                </item>
+                <item>
+                    <name>英数/かな+「aswd」で「←↓↑→」</name>
+                    <identifier>private.remap.eisuu_kana.move_aswd</identifier>
+                    <autogen>__KeyOverlaidModifier__ KeyCode::JIS_EISUU, KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen>
+                    <autogen>__KeyOverlaidModifier__ KeyCode::JIS_KANA, KeyCode::VK_MODIFIER_EXTRA2, KeyCode::JIS_KANA</autogen>
+                    <autogen>__KeyToKey__KeyCode::A,ModifierFlag::EXTRA1,KeyCode::CURSOR_LEFT</autogen>
+                    <autogen>__KeyToKey__KeyCode::S,ModifierFlag::EXTRA1,KeyCode::CURSOR_DOWN</autogen>
+                    <autogen>__KeyToKey__KeyCode::W,ModifierFlag::EXTRA1,KeyCode::CURSOR_UP</autogen>
+                    <autogen>__KeyToKey__KeyCode::D,ModifierFlag::EXTRA1,KeyCode::CURSOR_RIGHT</autogen>
+                    <autogen>__KeyToKey__KeyCode::A,ModifierFlag::EXTRA2,KeyCode::CURSOR_LEFT</autogen>
+                    <autogen>__KeyToKey__KeyCode::S,ModifierFlag::EXTRA2,KeyCode::CURSOR_DOWN</autogen>
+                    <autogen>__KeyToKey__KeyCode::W,ModifierFlag::EXTRA2,KeyCode::CURSOR_UP</autogen>
+                    <autogen>__KeyToKey__KeyCode::D,ModifierFlag::EXTRA2,KeyCode::CURSOR_RIGHT</autogen>
+                </item>
+                <item>
+                    <name>英数 + 1/2 to ctrl+shift+tab/ctrl+tab</name>
+                    <identifier>private.remap.eisuu_kana.ctrl_tab</identifier>
+                    <autogen>__KeyOverlaidModifier__ KeyCode::JIS_EISUU, KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen>
+                    <autogen>__KeyToKey__KeyCode::KEY_1,ModifierFlag::EXTRA1,KeyCode::TAB,ModifierFlag::CONTROL_L|ModifierFlag::SHIFT_L</autogen>
+                    <autogen>__KeyToKey__KeyCode::KEY_2,ModifierFlag::EXTRA1,KeyCode::TAB,ModifierFlag::CONTROL_L</autogen>
+                </item>
+                <item>
+                    <name>英数/かな+「q/e」で「pageup/down」</name>
+                    <identifier>private.remap.eisuu_kana.pagedown_up</identifier>
+                    <autogen>__KeyOverlaidModifier__ KeyCode::JIS_EISUU, KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen>
+                    <autogen>__KeyOverlaidModifier__ KeyCode::JIS_KANA, KeyCode::VK_MODIFIER_EXTRA2, KeyCode::JIS_KANA</autogen>
+                    <autogen>__KeyToKey__KeyCode::Q,ModifierFlag::EXTRA1,KeyCode::PAGEUP</autogen>
+                    <autogen>__KeyToKey__KeyCode::E,ModifierFlag::EXTRA1,KeyCode::PAGEDOWN</autogen>
+                    <autogen>__KeyToKey__KeyCode::Q,ModifierFlag::EXTRA2,KeyCode::PAGEUP</autogen>
+                    <autogen>__KeyToKey__KeyCode::E,ModifierFlag::EXTRA2,KeyCode::PAGEDOWN</autogen>
+                </item>
+                <item>
+                    <name>英数 + i/o to BS/DEL</name>
+                    <identifier>private.remap.eisuu_io</identifier>
+                    <autogen>__KeyOverlaidModifier__ KeyCode::JIS_EISUU, KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen>
+                    <autogen>__KeyToKey__KeyCode::I,ModifierFlag::EXTRA1,KeyCode::DELETE</autogen>
+                    <autogen>__KeyToKey__KeyCode::O,ModifierFlag::EXTRA1,KeyCode::FORWARD_DELETE</autogen>
+                </item>
+                <item>
+                    <name>英数 + z/x to CMD + Left/Right</name>
+                    <identifier>private.remap.eisuu_zx</identifier>
+                    <autogen>__KeyOverlaidModifier__ KeyCode::JIS_EISUU, KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen>
+                    <autogen>__KeyToKey__KeyCode::Z,ModifierFlag::EXTRA1,KeyCode::CURSOR_LEFT, ModifierFlag::COMMAND_L</autogen>
+                    <autogen>__KeyToKey__KeyCode::X,ModifierFlag::EXTRA1,KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_L</autogen>
+                </item>
+                <item>
+                    <name>英数 + n to ESC</name>
+                    <identifier>private.remap.eisuu_n</identifier>
+                    <autogen>__KeyOverlaidModifier__ KeyCode::JIS_EISUU, KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen>
+                    <autogen>__KeyToKey__KeyCode::N,ModifierFlag::EXTRA1, KeyCode::ESCAPE</autogen>
+                </item>
+                <item>
+                    <name>_ to \</name>
+                    <identifier>private.remap.underscore</identifier>
+                    <autogen>__KeyToKey__KeyCode::JIS_UNDERSCORE, ModifierFlag::SHIFT_L, KeyCode::JIS_UNDERSCORE</autogen>
+                    <autogen>__KeyToKey__KeyCode::JIS_UNDERSCORE, KeyCode::JIS_YEN, ModifierFlag::OPTION_L</autogen>
+                </item>
+            </list>
+        </item>
+    </list>
+</root>
